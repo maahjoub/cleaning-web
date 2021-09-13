@@ -1,0 +1,41 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<div class="wrapper">
+  <!-- Header Start -->
+  {% block header %} {% include "include/header.html" %} {% endblock header %}
+  <!-- Header End -->
+  <!-- About Start -->
+  {% block about %} {% include "include/about.html" %} {% endblock %}
+  <!-- About End -->
+  <!-- Service Start -->
+  {% block service %}{% include "include/service.html" %}{% endblock %}
+  <!-- Service End -->
+  <!-- Feature Start -->
+  {% block feature %}{% include "include/feature.html" %}{% endblock %}
+  <!-- Feature End -->
+  <!-- Team Start -->
+  {% block team %}{% include "include/team.html" %}{% endblock %}
+  <!-- Team End -->
+  <!-- FAQs Start -->
+  {% block faqs %}{% include "include/faqs.html" %}{% endblock %}
+  <!-- FAQs End -->
+  <!-- Pricing Plan Start -->
+  {% block pricing %}{% include "include/pricing.html" %}{% endblock %}
+  <!-- Pricing Plan End -->
+  <!-- Newsletter Start -->
+  {% block newsletter %}{% include "include/newsletter.html" %}{% endblock %}
+  <!-- Newsletter End -->
+  <!-- Testimonial Start -->
+  {% block testimonial %}{% include "include/testimonial.html" %}{% endblock %}
+  <!-- Testimonial End -->
+  <!-- Call to Action Start -->
+  {% block call %}{% include "include/call.html" %}{% endblock %}
+  <!-- Call to Action End -->
+  <!-- Blog Start -->
+  {% block blog %}{% include "include/blog.html" %}{% endblock %}
+  <!-- Blog End -->
+  <!-- Footer Start -->
+  {% block footer %}{% include "include/footer.html" %}{% endblock %}
+  <!-- Footer End -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+</div>
+{% endblock %}

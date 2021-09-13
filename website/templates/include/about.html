@@ -1,0 +1,33 @@
+{% load static %}
+<div class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-6">
+        <div class="about-img">
+          <img src="{% static 'website/img/about.jpg' %}" alt="Image" />
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-6">
+        <div class="about-text">
+          <h2><span>5</span> Years Experience</h2>
+          <p>
+            We are one of the systems specialized in integrated cleaning work
+            for all purposes and for all facilities and sites. We offer a
+            comprehensive program for cleaning at the highest level, with the
+            latest equipment and the best trained workers, accompanied by
+            specialized supervisors to follow up on the progress of work.
+          </p>
+          <hr />
+          <p>
+            We carry out comprehensive cleaning work for government
+            institutions, companies, organizations, hotels, apartments and homes
+            with high efficiency and with official contracts
+          </p>
+          <hr />
+
+          <a class="btn" href="{% url 'about'%}">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
